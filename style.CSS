@@ -57,7 +57,6 @@ section>div {
 }
 
 .expériences {
-    display: flex;
     flex-flow: row wrap;
 
 }
