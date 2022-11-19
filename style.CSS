@@ -1,0 +1,62 @@
+body {
+    background-color: azure;
+    padding: 10px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-decoration:black;
+}
+ul{
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 0px 10px;
+    background-color: #fff;
+}
+
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+}
+
+section>div {
+    width: 90%;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #777;
+    border-radius: 80%;
+    margin-top: -80px;
+}
+
+.contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.formations{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.expériences {
+    display: flex;
+    flex-flow: row wrap;
+
+}
